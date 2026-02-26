@@ -9,7 +9,7 @@ public class ReadLinesFromFile {
 		Scanner sc=new Scanner(System.in);
 		File file=new File("data.txt");
 		if (!file.exists()) {
-			System.out.println("File not found...");
+			System.out.println("Required File not found...");
 			return;
 		}
 		FileReader fr=new FileReader(file);
