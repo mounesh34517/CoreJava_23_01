@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Banking {
 	
-	int balance=1000;
+	int balance=4000;
 	
-	void checkBalance() {
+	public void checkBalance() {
 		System.out.println("Current Balance :"+balance);
 	}
 	void deposit(int amount) {

@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Scanner;
 public class ReadLinesFromFile {
 
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	public static void main(String[] args) throws FileNotFoundException, IOException{
 		
 		Scanner sc=new Scanner(System.in);
 		File file=new File("data.txt");
